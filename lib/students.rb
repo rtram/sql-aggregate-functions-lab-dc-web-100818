@@ -20,6 +20,7 @@ end
 
 def total_tardies_for_all_students
   "SELECT COUNT(tardies)
+    FROM students
   "
 end
 
