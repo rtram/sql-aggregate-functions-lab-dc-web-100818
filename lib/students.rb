@@ -2,8 +2,8 @@
 
 def highest_student_gpa
   "SELECT MAX(gpa)
-    FROM student 
-  "
+    FROM student
+  ;"
 end
 
 def lowest_student_gpa
